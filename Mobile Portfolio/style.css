@@ -1,0 +1,151 @@
+/* body{
+  max-width: 300px;
+  align-items: center;
+  margin: auto;
+} */
+.maindiv {
+  width: 300px;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+  border: 10px solid skyblue;
+  border-radius: 5px 5px;
+}
+header {
+  display: flex;
+  width: fit-content;
+}
+.hh1 {
+  margin-top: 58px;
+  margin-left: 10px;
+  border: 1px solid skyblue;
+  color: white;
+  border-radius: 5px;
+  background-color: skyblue;
+  height: fit-content;
+  text-align: center;
+}
+nav {
+  margin-right: 10px;
+}
+nav ul {
+  list-style: none;
+  line-height: 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: larger;
+  line-height: 30px;
+}
+nav ul li a:hover {
+  border: 1px solid skyblue;
+  color: white;
+  border-radius: 5px;
+  background-color: skyblue;
+}
+/*Home page Start*/
+.Homeh1 {
+  text-align: center;
+  color: skyblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+}
+h2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: xx-large;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  line-height: 40px;
+}
+/*Home page end*/
+/*Contact Start*/
+h3 {
+  text-align: center;
+  font-size: x-large;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: skyblue;
+}
+.cul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+.cli2 {
+  margin-left: 50px;
+}
+.ca {
+  text-decoration: none;
+  font-size: larger;
+  font-style: italic;
+  color: white;
+  background-color: rgb(0, 213, 255);
+  border-radius: 5px;
+}
+.cul a:hover {
+  color: black;
+}
+/*About start*/
+.About {
+  width: 250px;
+  margin-left: 20px;
+}
+h5 {
+  text-align: center;
+  font-size: x-large;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: skyblue;
+}
+.p1 {
+  border: 5px solid rgb(11, 11, 11);
+  border-radius: 5px;
+  color: rgb(0, 141, 255);
+  line-height: 25px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: 400px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+}
+.span1 {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+}
+/*About end*/
+/*Project start*/
+h6 {
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+}
+img {
+  width: 250px;
+  height: 150px;
+  margin-top: -50px;
+}
+/*Project end */
+/*Service Start*/
+h4 {
+  border: 5px solid skyblue;
+  border-radius: 5px;
+  color: black;
+  line-height: 25px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
